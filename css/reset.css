@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700,800,900");
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Pacifico', sans-serif;
+}
+
+:root {
+    --primary-color: #3EBFAB;
+    --tri-color: #454545;
+    --secondary-color: #000000;
+    --white: #ffffff;
+    --danger-color: red;
+    --primary-font: 'Fira Sans', sans-serif;
+    --max-width: 100%;
+    --max-width-div: 33%;
+    --min-width: 320px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--secondary-color);
+}
+noscript{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+    font-family: var(--primary-font);
+}
